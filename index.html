@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./scss/style.css">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; color: white }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+	<container>
+		<div class="rating-comp">
+			<div class="star">
+				<i class="fa-solid fa-star"></i>
+			</div>
+			<div class="text">
+				<h1>How did we do?</h1>
+				<p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+			</div>
+			<form action="/">
+				<div class="form-control">
+					<input type="button" value="1">
+					<input type="button" value="2">
+					<input type="button" value="3">
+					<input type="button" value="4">
+					<input type="button" value="5">
+				</div>
+				<button type="submit">Submit</button>
+			</form>
+		</div>
+		<div class="submitted">
+			<div class="img-container">
+				<img src="./images/illustration-thank-you.svg" alt="">
+			</div>
+			<div class="rating">
+				<p id="rating">You selected 4 out of 5</p>
+			</div>
+			<h1>Thank you!</h1>
+			<p class="text__rating">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+		</div>
+	</container>
+  </main> 
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/alexrezaei">Alexander Rezaei</a>.
+  </div>
+  <script src="./js/index.js" type="module"></script>
+</body>
+</html>

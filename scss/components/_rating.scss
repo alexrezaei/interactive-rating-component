@@ -1,0 +1,42 @@
+.rating-comp {
+    h1 {
+        font-size: 2.4rem;
+        margin-top: 16px;
+        color: getColour(white);
+        @media (min-width: 481px) {
+            font-size: 2.8rem;
+            margin-top: 30px;
+        }
+    }
+    p {
+        font-size: 1.4rem;
+        margin-top: 10px;
+        color: getColour(light-grey);
+        line-height: 22px;
+        @media (min-width: 481px){
+            margin-top: 15px;
+            font-size: 1.5rem;
+            line-height: 24px;
+        }
+    }
+    .star {
+        margin-top: 24px;
+        background-color: getColour(dark-blue);
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        i {
+            color: getColour(orange);
+            font-size: 13.33px;
+        }
+        @media (min-width: 481px) {
+            margin-top: 32px;
+            width: 48px;
+            height: 48px;
+        }
+    }
+
+}

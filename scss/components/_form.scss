@@ -1,0 +1,56 @@
+form {
+    margin-top: 24px;
+    .form-control {
+        display: flex;
+        justify-content: space-between;
+        input {
+            width: 42px;
+            height: 42px;
+            border: none;
+            border-radius: 50%;
+            background-color: getColour(dark-blue);
+            color: getColour(medium-grey);
+            font-size: 1.4rem;
+            font-weight: bold;
+            cursor: pointer;
+            @media (min-width: 481px) {
+                font-size: 1.6rem;
+                width: 51px;
+                height: 51px;
+            }
+            &:hover {
+                transition: 0.5s;
+                background-color: getColour(light-grey);
+                color: getColour(white);
+            }
+        }
+        .selected {
+            background-color: getColour(orange);
+            color: getColour(white);
+        }
+    }
+    button {
+        margin-top: 24px;
+        width: 279px;
+        height: 45px;
+        font-size: 14px;
+        font-weight: bold;
+        background-color: getColour(orange);
+        border: none;
+        border-radius: 22.5px;
+        color: getColour(white);
+        letter-spacing: 0.187rem;
+        cursor: pointer;
+        &:hover {
+            transition: 0.3s;
+            background-color: getColour(white);
+            color: getColour(orange);
+        }
+        @media (min-width: 481px) {
+            width: 341px;
+            height: 45px;
+            font-size: 1.5rem;
+            letter-spacing: 0.2rem;
+        }
+    }
+}
