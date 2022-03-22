@@ -41,6 +41,7 @@ form {
         color: getColour(white);
         letter-spacing: 0.187rem;
         cursor: pointer;
+        text-transform: uppercase;
         &:hover {
             transition: 0.3s;
             background-color: getColour(white);

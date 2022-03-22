@@ -114,6 +114,7 @@ form button {
   color: white;
   letter-spacing: 0.187rem;
   cursor: pointer;
+  text-transform: uppercase;
 }
 
 form button:hover {
